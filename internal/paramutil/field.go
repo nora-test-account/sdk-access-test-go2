@@ -1,8 +1,8 @@
 package paramutil
 
 import (
-	"github.com/nora-test-account/sdk-access-test-go/packages/param"
-	"github.com/nora-test-account/sdk-access-test-go/packages/respjson"
+	"github.com/nora-test-account/sdk-access-test-go2/packages/param"
+	"github.com/nora-test-account/sdk-access-test-go2/packages/respjson"
 )
 
 func AddrIfPresent[T comparable](v param.Opt[T]) *T {
