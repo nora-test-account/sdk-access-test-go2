@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/internal/apijson"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/packages/respjson"
+	"github.com/nora-test-account/sdk-access-test-go/internal/apijson"
+	"github.com/nora-test-account/sdk-access-test-go/packages/respjson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

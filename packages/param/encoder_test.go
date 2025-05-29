@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/packages/param"
+	"github.com/nora-test-account/sdk-access-test-go/packages/param"
 )
 
 type Struct struct {

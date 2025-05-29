@@ -2,7 +2,7 @@
 package json
 
 import (
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/internal/encoding/json/shims"
+	"github.com/nora-test-account/sdk-access-test-go/internal/encoding/json/shims"
 	"reflect"
 	"time"
 )

@@ -2,8 +2,8 @@ package apijson_test
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/internal/apijson"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/packages/respjson"
+	"github.com/nora-test-account/sdk-access-test-go/internal/apijson"
+	"github.com/nora-test-account/sdk-access-test-go/packages/respjson"
 	"testing"
 )
 

@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/internal/apijson"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/internal/requestconfig"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/option"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/packages/param"
-	"github.com/stainless-sdks/nora-test-project-repo-access-go/packages/respjson"
+	"github.com/nora-test-account/sdk-access-test-go/internal/apijson"
+	"github.com/nora-test-account/sdk-access-test-go/internal/requestconfig"
+	"github.com/nora-test-account/sdk-access-test-go/option"
+	"github.com/nora-test-account/sdk-access-test-go/packages/param"
+	"github.com/nora-test-account/sdk-access-test-go/packages/respjson"
 )
 
 // FridgeService contains methods and other services that help with interacting
