@@ -3,8 +3,8 @@
 package noratestprojectrepoaccess
 
 import (
-	"github.com/nora-test-account/sdk-access-test-go/internal/apierror"
-	"github.com/nora-test-account/sdk-access-test-go/packages/param"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/apierror"
+	"github.com/nora-test-account/sdk-access-test-go2/packages/param"
 )
 
 // aliased to make [param.APIUnion] private when embedding

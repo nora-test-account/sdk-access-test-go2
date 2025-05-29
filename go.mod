@@ -1,4 +1,4 @@
-module github.com/nora-test-account/sdk-access-test-go
+module github.com/nora-test-account/sdk-access-test-go2
 
 go 1.21
 

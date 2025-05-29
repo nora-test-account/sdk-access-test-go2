@@ -41,7 +41,7 @@ To use a local version of this library from source in another project, edit the 
 directive. This can be done through the CLI with the following:
 
 ```sh
-$ go mod edit -replace github.com/nora-test-account/sdk-access-test-go=/path/to/sdk-access-test-go
+$ go mod edit -replace github.com/nora-test-account/sdk-access-test-go2=/path/to/sdk-access-test-go2
 ```
 
 ## Running tests

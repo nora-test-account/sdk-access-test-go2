@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nora-test-account/sdk-access-test-go/internal"
-	"github.com/nora-test-account/sdk-access-test-go/internal/apierror"
-	"github.com/nora-test-account/sdk-access-test-go/internal/apiform"
-	"github.com/nora-test-account/sdk-access-test-go/internal/apiquery"
+	"github.com/nora-test-account/sdk-access-test-go2/internal"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/apierror"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/apiform"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

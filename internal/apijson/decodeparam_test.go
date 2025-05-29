@@ -3,8 +3,8 @@ package apijson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/nora-test-account/sdk-access-test-go/internal/apijson"
-	"github.com/nora-test-account/sdk-access-test-go/packages/param"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/apijson"
+	"github.com/nora-test-account/sdk-access-test-go2/packages/param"
 	"reflect"
 	"testing"
 )

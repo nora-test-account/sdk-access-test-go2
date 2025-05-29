@@ -1,6 +1,6 @@
 # Nora Test Project Repo Access Go API Library
 
-<a href="https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go"><img src="https://pkg.go.dev/badge/github.com/nora-test-account/sdk-access-test-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go2"><img src="https://pkg.go.dev/badge/github.com/nora-test-account/sdk-access-test-go2.svg" alt="Go Reference"></a>
 
 The Nora Test Project Repo Access Go library provides convenient access to the Nora Test Project Repo Access REST API
 from applications written in Go.
@@ -13,7 +13,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 
 ```go
 import (
-	"github.com/nora-test-account/sdk-access-test-go" // imported as noratestprojectrepoaccess
+	"github.com/nora-test-account/sdk-access-test-go2" // imported as noratestprojectrepoaccess
 )
 ```
 
@@ -24,7 +24,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/nora-test-account/sdk-access-test-go@v0.1.0-alpha.1'
+go get -u 'github.com/nora-test-account/sdk-access-test-go2@v0.1.0-alpha.2'
 ```
 
 <!-- x-release-please-end -->
@@ -44,8 +44,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nora-test-account/sdk-access-test-go"
-	"github.com/nora-test-account/sdk-access-test-go/option"
+	"github.com/nora-test-account/sdk-access-test-go2"
+	"github.com/nora-test-account/sdk-access-test-go2/option"
 )
 
 func main() {
@@ -270,7 +270,7 @@ client.Fridge.ListItems(context.TODO(), ...,
 )
 ```
 
-See the [full list of request options](https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go/option).
+See the [full list of request options](https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go2/option).
 
 ### Pagination
 
@@ -467,7 +467,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/nora-test-account/sdk-access-test-go/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/nora-test-account/sdk-access-test-go2/issues) with questions, bugs, or suggestions.
 
 ## Contributing
 

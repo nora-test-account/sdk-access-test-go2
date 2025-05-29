@@ -1,7 +1,7 @@
 package paramutil
 
 import (
-	"github.com/nora-test-account/sdk-access-test-go/internal/encoding/json/sentinel"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/encoding/json/sentinel"
 )
 
 // NullPtr returns a pointer to the zero value of the type T.
