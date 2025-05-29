@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nora-test-account/sdk-access-test-go/internal/requestconfig"
+	"github.com/nora-test-account/sdk-access-test-go2/internal/requestconfig"
 	"github.com/tidwall/sjson"
 )
 
@@ -19,7 +19,7 @@ import (
 // which can be supplied to clients, services, and methods. You can read more about this functional
 // options pattern in our [README].
 //
-// [README]: https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go#readme-requestoptions
+// [README]: https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go2#readme-requestoptions
 type RequestOption = requestconfig.RequestOption
 
 // WithBaseURL returns a RequestOption that sets the BaseURL for the client.

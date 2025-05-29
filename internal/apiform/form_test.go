@@ -2,7 +2,7 @@ package apiform
 
 import (
 	"bytes"
-	"github.com/nora-test-account/sdk-access-test-go/packages/param"
+	"github.com/nora-test-account/sdk-access-test-go2/packages/param"
 	"io"
 	"mime/multipart"
 	"strings"
