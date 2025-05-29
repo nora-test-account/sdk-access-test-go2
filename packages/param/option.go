@@ -3,7 +3,7 @@ package param
 import (
 	"encoding/json"
 	"fmt"
-	shimjson "github.com/stainless-sdks/nora-test-project-repo-access-go/internal/encoding/json"
+	shimjson "github.com/nora-test-account/sdk-access-test-go/internal/encoding/json"
 	"time"
 )
 

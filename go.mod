@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/nora-test-project-repo-access-go
+module github.com/nora-test-account/sdk-access-test-go
 
 go 1.21
 
