@@ -144,7 +144,7 @@ func (r FridgeAddItemParams) MarshalJSON() (data []byte, err error) {
 	return json.Marshal(r.Food)
 }
 func (r *FridgeAddItemParams) UnmarshalJSON(data []byte) error {
-	return r.Food.UnmarshalJSON(data)
+	return json.Unmarshal(data, &r.Food)
 }
 
 type FridgeUpdateItemParams struct {
@@ -157,5 +157,5 @@ func (r FridgeUpdateItemParams) MarshalJSON() (data []byte, err error) {
 	return json.Marshal(r.Food)
 }
 func (r *FridgeUpdateItemParams) UnmarshalJSON(data []byte) error {
-	return r.Food.UnmarshalJSON(data)
+	return json.Unmarshal(data, &r.Food)
 }
