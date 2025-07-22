@@ -112,7 +112,7 @@ func (r *Food) UnmarshalJSON(data []byte) error {
 // be used at the last possible moment before sending a request. Test for this with
 // FoodParam.Overrides()
 func (r Food) ToParam() FoodParam {
-	return param.Override[FoodParam](r.RawJSON())
+	return param.Override[FoodParam](json.RawMessage(r.RawJSON()))
 }
 
 // Model for food items in the fridge.
@@ -144,7 +144,7 @@ func (r FridgeAddItemParams) MarshalJSON() (data []byte, err error) {
 	return json.Marshal(r.Food)
 }
 func (r *FridgeAddItemParams) UnmarshalJSON(data []byte) error {
-	return r.Food.UnmarshalJSON(data)
+	return json.Unmarshal(data, &r.Food)
 }
 
 type FridgeUpdateItemParams struct {
@@ -157,5 +157,5 @@ func (r FridgeUpdateItemParams) MarshalJSON() (data []byte, err error) {
 	return json.Marshal(r.Food)
 }
 func (r *FridgeUpdateItemParams) UnmarshalJSON(data []byte) error {
-	return r.Food.UnmarshalJSON(data)
+	return json.Unmarshal(data, &r.Food)
 }

@@ -24,7 +24,7 @@ Or to pin the version:
 <!-- x-release-please-start-version -->
 
 ```sh
-go get -u 'github.com/nora-test-account/sdk-access-test-go2@v0.1.0-alpha.2'
+go get -u 'github.com/nora-test-account/sdk-access-test-go2@v0.1.0-alpha.3'
 ```
 
 <!-- x-release-please-end -->
@@ -269,6 +269,8 @@ client.Fridge.ListItems(context.TODO(), ...,
 	option.WithJSONSet("some.json.path", map[string]string{"my": "object"}),
 )
 ```
+
+The request option `option.WithDebugLog(nil)` may be helpful while debugging.
 
 See the [full list of request options](https://pkg.go.dev/github.com/nora-test-account/sdk-access-test-go2/option).
 
